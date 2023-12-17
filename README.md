@@ -1,5 +1,12 @@
 # 安装说明
 ## 修改配置
+### 添加 .vault-password.txt
+```
+rm -rf group_vars/secret.yml
+openssl rand -base64 24 > .vault-password.txt
+ansible-vault create group_vars/secret.yml
+vault_id_secret: secret # CHANGE ME NOW!!!
+```
 ### 修改管理员用户邮箱
 ![image](https://github.com/ywj0101/galaxy-install/assets/55040324/c1f39f61-94c0-4c67-9137-fa74dc0bf217)
 
@@ -22,3 +29,6 @@ galaxyctl follow
 ```
 journalctl -fu nginx
 ```
+
+## 帮助文档
+[step1](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#requirements)
