@@ -20,6 +20,13 @@ vault_id_secret: secret # CHANGE ME NOW!!!
 
 ![image](https://github.com/ywj0101/galaxy-install/assets/55040324/5f3f9350-0e88-41d5-a4ae-1725fdad2c6f)
 
+## 运行
+```
+# 安装role
+ansible-galaxy install -p roles -r requirements.yml
+# 运行
+ansible-playbook galaxy.yml
+```
 ## 查看日志
 ### 查看galaxy运行日志
 ```
