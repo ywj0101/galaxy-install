@@ -1,4 +1,7 @@
 # 安装说明
+## 环境
+ansible >= 2.12
+python >= 3.8
 ## 修改配置
 ### 添加 .vault-password.txt
 ```
