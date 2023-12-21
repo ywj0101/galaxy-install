@@ -32,3 +32,4 @@ journalctl -fu nginx
 
 ## 帮助文档
 [step1](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#requirements)
+[step4](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tus/tutorial.html)
