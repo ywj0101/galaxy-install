@@ -17,6 +17,8 @@ vault_id_secret: secret # CHANGE ME NOW!!!
 
 ![image](https://github.com/ywj0101/galaxy-install/assets/55040324/3af0daf4-d6df-4cef-9588-10aa6ff71765)
 
+![image](https://github.com/ywj0101/galaxy-install/assets/55040324/4058d0aa-0bfb-4737-9335-077ae888cbdf)
+
 ### nginx 不开启ssl，代码中是不开启的
 ![image](https://github.com/ywj0101/galaxy-install/assets/55040324/e3d6ce15-059f-4fba-ad7a-bd66c7d6c343)
 
@@ -36,3 +38,4 @@ journalctl -fu nginx
 [step1](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#requirements)
 [step4](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tus/tutorial.html)
 [step5](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html)
+[step6](https://training.galaxyproject.org/training-material/topics/admin/tutorials/apptainer/tutorial.html)
