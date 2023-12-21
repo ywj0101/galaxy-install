@@ -1,6 +1,7 @@
 # 安装说明
 ## 环境
 ansible >= 2.12
+
 python >= 3.8
 ## 修改配置
 ### 添加 .vault-password.txt
@@ -39,6 +40,9 @@ journalctl -fu nginx
 
 ## 帮助文档
 [step1](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#requirements)
+
 [step4](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tus/tutorial.html)
+
 [step5](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html)
+
 [step6](https://training.galaxyproject.org/training-material/topics/admin/tutorials/apptainer/tutorial.html)
